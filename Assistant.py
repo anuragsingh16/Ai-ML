@@ -7,7 +7,7 @@ import os
 import re
 import uuid
 
-genai.configure(api_key="AIzaSyDnX7pNCRYb26WMoj9wqK-V2nPqQnwAvj8")
+genai.configure(api_key="Your Api Key")
 engine = pyttsx3.init()
 
 def text_to_audio(text):
